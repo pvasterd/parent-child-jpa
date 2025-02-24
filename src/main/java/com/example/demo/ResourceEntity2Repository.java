@@ -1,0 +1,13 @@
+package com.example.demo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+
+/**
+ * JPA interface for the ResourceEntity.
+ */
+@Repository
+public interface ResourceEntity2Repository extends JpaRepository<ResourceEntity2, String> {
+
+}
